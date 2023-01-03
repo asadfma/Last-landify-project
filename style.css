@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fourth-div{
+  display: flex;
+  width: 1440px;
+  height: 668px;
+  justify-content: space-between;
+  padding: 64px 165px;
+  align-items: center;
+}
+.righteous p{
+  width: 444px;
+height: 160px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin: 20px 0;
+}
+.righteous h2{
+  width: 444px;
+  height: 54px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: #18191F;
+}
+
+.righteous h6 a{
+  width: 89px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+   text-decoration: none;
+  line-height: 24px;
+  color: #8C30F5;
+}
+.righteous img{
+  height: 14px;
+width: 22.000242233276367px;
+margin-left: 5px;
+cursor: context-menu;
+}
+
+.fifth-div{
+  margin:64px 0 ;
+  align-items: center;
+padding: 80px 165px;
+width: 1440px;
+height: 332px;
+}
+.right{
+  float: left;
+  width: 45%;
+}
+.right h1{
+  width: 540px;
+height: 128px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin-bottom: 20px;
+}
+.right p{
+width: 540px;
+height: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+}
+.left{
+  float: right;
+  width: 45%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.left div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left img{
+  align-items: center;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+}
+.left h3{
+  width: 191px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+}
+.left p{
+width: 191px;
+height: 26px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+}
+.sixth-div{
+  padding: 64px 165px;
+width: 1440px;
+height: 704px;
+}
+.sixth-div span{
+  display: grid;
+grid-template-columns: 1fr 1fr;
+margin-bottom: 48px;
+}
+.sixth-div h2{
+  width: 540px;
+  height: 108px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+}
+.sixth-div p{
+  width: 540px;
+  height: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+}
+.sixth-div img{
+  width: 1110px;
+  height: 400px;
+  border-radius: 8px;
+  align-items: stretch;
+  background-size: cover;
+}

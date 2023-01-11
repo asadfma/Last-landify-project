@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  there is a same problem just like the in the main section */
+.second-div {
+  position: absolute;
+  background-color: #18191f;
+  height: 300px;
+  width: 100%;
+  top: 491px;
+}
+.second-div span {
+  position: absolute;
+  width: 160px;
+  height: 140px;
+  left: 1115px;
+  top: 56px;
+  padding: 50px;
+}
+.second-div div {
+  position: absolute;
+  width: 489px;
+  height: 168px;
+  left: 75px;
+  top: 56px;
+}
+.second-div span p {
+  width: 160px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+  margin-bottom: 12px;
+}
+.second-div div img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+.up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 199px;
+  height: 26px;
+}
+.down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 44px;
+  width: 550px;
+  height: 26px;
+  margin: 5px 0 30px;
+}
+.second-div li {
+  list-style: none;
+}
+.second-div h5 {
+  color: white;
+}
+.second-div a {
+  color: white;
+  text-decoration: none;
+}

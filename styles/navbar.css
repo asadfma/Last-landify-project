@@ -1,0 +1,16 @@
+.navbar,
+.logo-container,
+.navlinks-container,
+.nav-badge-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navlinks-container {
+  width: 30%;
+}

@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  There is a problem. if you click the online server, you can easily realize it. */
+.real-stories {
+  background-color: #d5fafc;
+  width: 100%;
+  height: 880px;
+  margin-top: 150px;
+  position: absolute;
+}
+.clr {
+  height: 40.01445007324219px;
+  width: 130px;
+  left: 0px;
+  top: -0.002410888671875px;
+  border-radius: 0px;
+}
+
+/* left-top */
+
+.left-side h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  width: 445px;
+  height: 128px;
+  margin-bottom: 10px;
+}
+.left-top {
+  position: relative;
+  left: 150px;
+}
+.left-top img {
+  position: absolute;
+  width: 143px;
+  height: 120px;
+  left: 165px;
+  top: 64px;
+}
+.left-top div {
+  position: absolute;
+  top: 120px;
+  left: 160px;
+  width: 445px;
+  height: 168px;
+  gap: 8px;
+}
+
+/* left-bottom */
+.left-bottom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #18191f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 270px;
+  left: 385px;
+  top: 312px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  padding: 32px 42px 10px 32px;
+}
+.left-bottom div img {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  left: 0px;
+  bottom: -20px;
+}
+.left-bottom h3 {
+  margin-top: 50px;
+  width: 100%;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+}
+.left-bottom div div {
+  padding-left: 25px;
+}
+.left-bottom p {
+  width: 100%;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #969bab;
+}
+
+/*  right-top  */
+.right-top {
+  padding: 32px;
+  position: absolute;
+  width: 415px;
+  height: 320px;
+  left: 735px;
+  top: 168px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.right-top div div {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  width: 349px;
+  height: 128px;
+  margin-top: 10px;
+}
+.right-top div div p {
+  width: 300px;
+  height: 130px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  margin-top: 20px;
+}
+.right-top div div h4 {
+  width: 114px;
+  height: 28px;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+}
+.right-top div div h6 {
+  width: 82px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #969bab;
+}
+.right-top div img {
+  position: absolute;
+  left: 7%;
+  right: 10%;
+  top: 32%;
+  height: 14px;
+  width: 15.929831504821777px;
+}
+.right-top div div {
+  padding: 35px 32px 32px 24px;
+}
+.right-top img {
+  position: absolute;
+  height: 40px;
+  width: 130px;
+  left: 32px;
+  top: 32px;
+}
+
+/* right bottom  */
+.right-bottom {
+  padding: 32px;
+  gap: 32px;
+  position: absolute;
+  width: 350px;
+  height: 276px;
+  left: 705px;
+  top: 540px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.right-bottom div div {
+  padding-left: 20px;
+  width: 286px;
+  height: 140px;
+}
+.right-bottom div img {
+  position: absolute;
+  left: 8%;
+  top: 37%;
+  right: 0.44%;
+  height: 14px;
+  width: 15.929831504821777px;
+}
+.right-bottom img {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.right-bottom div div p {
+  width: 254px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #18191f;
+}
+.right-bottom h5 {
+  width: 131px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+  margin: 30px 0 0px 0;
+}
+.right-bottom div div h6 {
+  width: 179px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #969bab;
+}

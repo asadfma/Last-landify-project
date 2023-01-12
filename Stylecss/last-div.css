@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.last-div {
+  text-align: center;
+  width: 100%;
+}
+.last-div span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 48px;
+}
+.last-div h2 {
+  height: 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: #18191f;
+}
+.last-div p {
+  width: 540px;
+  height: 128px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+.last-div img {
+  width: 1110px;
+  height: 400px;
+  border-radius: 8px;
+  align-items: stretch;
+  background-size: cover;
+}

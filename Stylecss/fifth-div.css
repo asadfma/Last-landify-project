@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fifth-div {
+  margin: 64px 0;
+  text-align: center;
+  padding: 80px 165px;
+  width: 1440px;
+  height: 332px;
+}
+.our-achievements {
+  float: left;
+  width: 45%;
+}
+.our-achievements h1 {
+  width: 100%;
+  text-align: start;
+  height: 128px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+  margin-bottom: 20px;
+}
+.our-achievements p {
+  width: 540px;
+  height: 32px;
+  text-align: start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+.two-million {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-left: 20px;
+}
+.two-million > section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.two-million img {
+  align-items: center;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+}
+.two-million h3 {
+  width: 191px;
+  height: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+}
+.two-million p {
+  width: 191px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18191f;
+}

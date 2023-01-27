@@ -1,8 +1,8 @@
-.six-features section {
+.features section {
   height: 148px;
   margin: auto;
 }
-.six-features p {
+.features p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
@@ -10,11 +10,11 @@
   margin: 10px 10px;
   height: 100px;
 }
-.six-features img {
+.features img {
   width: 32px;
   height: 32px;
 }
-.six-features {
+.features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
@@ -23,7 +23,7 @@
   background: #ffffff;
   margin: auto;
 }
-.six-features h6 {
+.features h6 {
   height: 32px;
   font-family: "Inter";
   font-size: 24px;

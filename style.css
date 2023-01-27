@@ -1,2 +1,3 @@
-@import url(./csscodes/footer-first-div.css);
-@import url(./csscodes/footer-second-div.css);
+@import url(./styles/footer-first-div.css);
+@import url(./styles/footer-second-div.css);
+@import url(./styles/reset.css);

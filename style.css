@@ -1,4 +1,5 @@
-@import url(./stylecsscodes/company-logos.css);
-@import url(./stylecsscodes/six-features.css);
-@import url(./stylecsscodes/tallor-made.css);
-@import url(./stylecsscodes/real-stories.css);
+@import url(./styles/company-logos.css);
+@import url(./styles/six-features.css);
+@import url(./styles/tallor-made.css);
+@import url(./styles/real-stories.css);
+@import url(./styles/reset.css);

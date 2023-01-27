@@ -1,12 +1,12 @@
 /*  there is a same problem just like the in the main section */
-.second-div {
+.footer {
   position: absolute;
   background-color: #18191f;
   height: 300px;
   width: 100%;
   top: 491px;
 }
-.second-div span {
+.footer span {
   position: absolute;
   width: 160px;
   height: 140px;
@@ -14,14 +14,14 @@
   top: 56px;
   padding: 50px;
 }
-.second-div div {
+.footer div {
   position: absolute;
   width: 489px;
   height: 168px;
   left: 75px;
   top: 56px;
 }
-.second-div span p {
+.footer span p {
   width: 160px;
   height: 28px;
   font-size: 18px;
@@ -29,7 +29,7 @@
   color: #d9dbe1;
   margin-bottom: 12px;
 }
-.second-div div img {
+.footer div img {
   width: 32px;
   height: 32px;
   margin-bottom: 20px;
@@ -53,13 +53,13 @@
   height: 26px;
   margin: 5px 0 30px;
 }
-.second-div li {
+.footer li {
   list-style: none;
 }
-.second-div h5 {
+.footer h5 {
   color: white;
 }
-.second-div a {
+.footer a {
   color: white;
   text-decoration: none;
 }

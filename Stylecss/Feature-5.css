@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.fifth-div {
+.Feature-5 {
   margin: 64px 0;
   text-align: center;
   padding: 80px 165px;
@@ -19,7 +14,6 @@
   text-align: start;
   height: 128px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
@@ -31,7 +25,6 @@
   height: 32px;
   text-align: start;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -58,7 +51,6 @@
   width: 191px;
   height: 40px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 40px;
@@ -68,7 +60,6 @@
   width: 191px;
   height: 26px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;

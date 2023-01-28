@@ -1,16 +1,22 @@
 .navbar {
+  width: 80%;
+  margin: auto;
+  padding: 22px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 30px;
-}
-.navlinks-container {
-  display: flex;
-  gap: 20px;
-  right: 120px;
-  position: relative;
 }
 
-.badge {
-  margin: 0 10px;
+.nav-left,
+.logo-container,
+.navlinks-container,
+.nav-badge-links-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 14px;
+}
+
+.nav-badge-links-container {
+  gap: 12px;
 }

@@ -21,9 +21,10 @@ a {
 }
 
 .app {
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
   background-image: url("/images/hero/hero-backround.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }

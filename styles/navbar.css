@@ -1,16 +1,16 @@
-.navbar,
-.logo-container,
-.navlinks-container,
-.nav-badge-links-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .navbar {
-  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+.navlinks-container {
+  display: flex;
+  gap: 20px;
+  right: 120px;
+  position: relative;
 }
 
-.navlinks-container {
-  width: 30%;
+.badge {
+  margin: 0 10px;
 }

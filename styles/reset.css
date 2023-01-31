@@ -4,8 +4,38 @@
   box-sizing: border-box;
 }
 
-body {
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
+body,
+html {
+  color: #18191f;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #18191f;
+  text-decoration: none;
+}
+
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.app::before {
+  content: "";
+  position: absolute;
+  left: -15vw;
+  right: -15vw;
+  width: 99vw;
+  margin: 0 auto;
+  height: 100dvh;
+  background-image: url("/images/hero/hero-backround.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }

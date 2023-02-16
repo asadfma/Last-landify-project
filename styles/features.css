@@ -1,32 +1,59 @@
-.features section {
-  height: 148px;
-  margin: auto;
+.features-section,
+.features-container {
+  display: flex;
+  flex-direction: column;
 }
-.features p {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  margin: 10px 10px;
-  height: 100px;
+
+.features-section {
+  gap: 50px;
+  align-items: center;
 }
-.features img {
-  width: 32px;
-  height: 32px;
+
+.tallor-made {
+  margin-top: 30px;
+  width: 540px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.features {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 48px;
-  width: 1000px;
-  height: 673px;
-  background: #ffffff;
-  margin: auto;
+
+.features-heading {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.features h6 {
-  height: 32px;
-  font-family: "Inter";
+
+.features-container {
+  gap: 65px;
+}
+
+.features-row-one,
+.features-row-two {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  max-width: 350px;
+}
+
+.feature-description {
+  text-align: center;
+}
+
+.feature-heading {
   font-size: 24px;
-  line-height: 32px;
-  margin-top: 20px;
+}
+
+.feature-description {
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.feature-icon {
+  margin-bottom: 16px;
 }

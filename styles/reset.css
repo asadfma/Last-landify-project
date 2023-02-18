@@ -9,6 +9,7 @@ html {
   color: #18191f;
   font-family: "Inter", sans-serif;
   font-weight: 400px;
+  width: 100%;
 }
 
 li {
@@ -31,7 +32,7 @@ a {
   position: absolute;
   left: -15vw;
   right: -15vw;
-  width: 99vw;
+  width: 100vw;
   margin: 0 auto;
   height: 100dvh;
   background-image: url("/images/hero/hero-backround.png");

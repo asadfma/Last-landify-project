@@ -6,6 +6,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.navbar img {
+  object-fit: fill;
+}
 
 .nav-left,
 .logo-container,

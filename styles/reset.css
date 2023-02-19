@@ -9,7 +9,6 @@ html {
   color: #18191f;
   font-family: "Inter", sans-serif;
   font-weight: 400px;
-  width: 100%;
 }
 
 li {
@@ -24,19 +23,18 @@ a {
 .app {
   max-width: 1440px;
   margin: 0 auto;
-  position: relative;
 }
 
 .app::before {
   content: "";
-  position: absolute;
-  left: -15vw;
-  right: -15vw;
-  width: 100vw;
-  margin: 0 auto;
-  height: 100dvh;
   background-image: url("/images/hero/hero-backround.png");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 98vw;
+  height: 100vh;
+  height: 100dvh;
+  position: absolute;
+  inset: 0;
+  margin: auto;
   z-index: -1;
 }

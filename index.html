@@ -49,27 +49,31 @@
       </section>
 
       <!-- Partners -->
-      <section class="partners">
-        <img src="images/partners/Airbnb Logo.png" alt="Airbnb Logo" />
-        <img src="images/partners/Hubspot Logo.png" alt="Hubspot logo" />
-        <img src="images/partners/Google Logo.png" alt="Google Logo" />
-        <img src="images/partners/Microsoft Logo.png" alt="Microsoft logo" />
-        <img src="images/partners/Walmart Logo.png" alt="Walmart logo" />
-        <img src="images/partners/FedEx Logo.png" alt="FedEx logo" />
+      <section class="partners-container">
+        <div class="divider"></div>
+        <!-- prettier-ignore -->
+        <div class="partner-logos">
+          <img class="partner-logo" src="images/partners/Airbnb Logo.png" alt="Airbnb Logo" />
+          <img class="partner-logo" src="images/partners/Hubspot Logo.png" alt="Hubspot logo" />
+          <img class="partner-logo" src="images/partners/Google Logo.png" alt="Google Logo" />
+          <img class="partner-logo" src="images/partners/Microsoft Logo.png" alt="Microsoft logo" />
+          <img class="partner-logo" src="images/partners/Walmart Logo.png" alt="Walmart logo" />
+          <img class="partner-logo" src="images/partners/FedEx Logo.png" alt="FedEx logo" />
+        </div>
+        <div class="divider"></div>
       </section>
 
       <!-- Features -->
       <section class="features-section">
         <!-- Taillor - Made -->
-        <div class="tallor-made">
-          <h3 class="features-heading">Tallor-made features</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempore
-            quia quae quis dolorem repudiandae ex voluptatibus repellat ipsa,
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempore
-            quia quae quis dolorem repudiandae ex voluptatibus repellat ipsa,
+        <div class="tailor-made">
+          <h3 class="features-heading">Tailor-made features</h3>
+          <p class="feature-description">
+            Lorem ipsum is common placeholder text used to demonstrate the
+            graphic elements of a document or visual presentation.
           </p>
         </div>
+
         <div class="features-container">
           <div class="features-row-one">
             <div class="feature">
@@ -152,90 +156,78 @@
 
       <!--  Testimonials -->
       <section class="testimonials">
-        <div class="left-column">
+        <div class="testimonials-left-column">
           <div class="testimonials-intro">
-            <img src="./images/Testimonials/Quote Mark.png" alt="Quote mark" />
-            <div>
-              <h1 class="testimonials-header">
-                Real Stories from <br />
-                Real Customers
-              </h1>
-              <p class="testimonials-paragraph">
-                Get inspired by these stories
-              </p>
-            </div>
+            <h2 class="testimonials-header">
+              Real Stories from <br />
+              Real Customers
+            </h2>
+            <p class="header-description">Get inspired by these stories</p>
           </div>
-          <div class="testimoinals-hubspot">
+
+          <div class="testimonial-card hubspot">
             <img
-              src="./images/Testimonials/Hubspot Logo Floyd Miles.png"
               alt="Hubspot logo"
+              class="testimonial-card-logo"
+              src="./images/Testimonials/Hubspot Logo Floyd Miles.png"
             />
-            <div class="testimonials-inside">
-              <img
-                class="testimonials-image"
-                src="./images/Testimonials/Quote Mark.png"
-                alt="Quote mark"
-              />
-              <div class="testimonials-rightside">
-                <p class="testimonials-paragraph">
-                  To quickly start my startup <br />
-                  landing page design, I was <br />looking for a landing page UI
-                  <br />
-                  Kit. Landify is one of the best <br />
-                  landing page UI kit I have <br />
-                  come across. It’s so flexible, <br />
-                  well organised and easily <br />
-                  editable.
+            <div class="testimony-container">
+              <div class="testimony-details">
+                <p class="testimony">
+                  To quickly start my startup landing page design, I was looking
+                  for a landing page UI Kit. Landify is one of the best landing
+                  page UI kit I have come across. It’s so flexible, well
+                  organised and easily editable.
                 </p>
-                <h5 class="testimonials-heading">Floyd Miles</h5>
-                <h6 class="testimoinal-heading">Vice President, GoPro</h6>
+
+                <div class="testimony-author-details">
+                  <h5 class="testimony-author">Floyd Miles</h5>
+                  <h6 class="authors-position">Vice President, GoPro</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="right-column">
-          <div class="testimonials-airbn">
+
+        <div class="testimonials-right-column">
+          <div class="testimonial-card airbnb">
             <img
+              alt="Airbnb logo"
+              class="testimonial-card-logo"
               src="./images/Testimonials/Airbnb Logo jane cooper.png"
-              alt="Airbn logo"
             />
-            <div class="testimonials-inside">
-              <img
-                class="testimonials-image"
-                src="./images/Testimonials/Quote Mark.png"
-                alt="Quote Mark"
-              />
-              <div class="testimonials-rightside">
-                <p class="testimonials-paragraph">
-                  I used landify and created a landing <br />
-                  page for my startup within a week. The <br />
-                  Landify UI Kit is simple and highly <br />
+            <div class="testimony-container">
+              <div class="testimony-details">
+                <p class="testimony">
+                  I used landify and created a landing page for my startup
+                  within a week. The Landify UI Kit is simple and highly
                   intuitive, so anyone can use it.
                 </p>
-                <h5 class="testimonials-heading">Jane Cooper</h5>
-                <h6 class="testimoinal-heading">CEO, Airbnb</h6>
+
+                <div class="testimony-author-details">
+                  <h5 class="testimony-author">Jane Cooper</h5>
+                  <h6 class="authors-position">CEO, Airbnb</h6>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="testimonials-bookmyshow">
+          <div class="testimonial-card book-show">
             <img
-              src="./images/Testimonials/BookMyShow Logo Kristin watson.png"
               alt="Airbn logo"
+              class="testimonial-card-logo"
+              src="./images/Testimonials/BookMyShow Logo Kristin watson.png"
             />
-            <div class="testimonials-inside">
-              <img
-                class="testimonials-image"
-                src="./images/Testimonials/Quote Mark.png"
-                alt="Quote Mark"
-              />
-              <div class="testimonials-rightside">
-                <p class="testimonials-paragraph">
-                  Landify saved our time in <br />
-                  designing my company page.
+            <div class="testimony-container">
+              <div class="testimony-details">
+                <p class="testimony">
+                  Landify saved our time in designing my company page.
                 </p>
-                <h5 class="testimonials-heading">Kristin Watson</h5>
-                <h6 class="testimoinal-heading">Co-Founder, BookMyShow</h6>
+
+                <div class="testimony-author-details">
+                  <h5 class="testimony-author">Kristin Watson</h5>
+                  <h6 class="authors-position">Co-Founder, BookMyShow</h6>
+                </div>
               </div>
             </div>
           </div>

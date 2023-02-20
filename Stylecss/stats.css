@@ -6,41 +6,36 @@
   padding: 64px 165px;
   align-items: center;
 }
-.stats-text p {
+
+.stats-paragraph {
   width: 444px;
   height: 160px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  font-feature-settings: "salt" on, "liga" off;
-  color: #18191f;
   margin: 20px 0;
 }
-.stats-text h2 {
+
+.stats-heading {
   width: 444px;
   height: 54px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 50px;
   line-height: 54px;
   color: #18191f;
 }
 
-.stats-text h6 a {
+.stats-link a {
   width: 89px;
   height: 24px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   text-decoration: none;
   line-height: 24px;
   color: #8c30f5;
 }
-.stats-text img {
+
+.stats-link-img {
   height: 14px;
   width: 22.000242233276367px;
   margin-left: 5px;

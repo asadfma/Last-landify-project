@@ -1,0 +1,118 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+  padding: 120px 0;
+  margin-top: 70px;
+  position: relative;
+}
+
+.testimonials-right-column,
+.testimonials-left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.testimonials-header {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  position: relative;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 32px 30px;
+  border-radius: 8px;
+}
+
+.hubspot {
+  width: 350px;
+  margin-left: auto;
+}
+
+.book-show {
+  width: 350px;
+}
+
+.airbnb {
+  width: 445px;
+}
+
+.testimonial-card-logo {
+  margin-bottom: 32px;
+}
+
+.testimony-details {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  gap: 24px;
+  position: relative;
+}
+
+.testimony {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.testimony-author {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.authors-position {
+  font-weight: 500;
+  font-size: 14px;
+  color: #969bab;
+}
+
+.testimonials::before {
+  content: "";
+  width: 99vw;
+  height: 100%;
+  position: absolute;
+  background: #d5fafc;
+  z-index: -1;
+  top: 0;
+}
+
+.testimonials-header::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-image: url("/images/Testimonials/Quote Mark.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 85%;
+  bottom: 40%;
+  z-index: -1;
+}
+
+.testimony-details::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/images/Testimonials/Quote Mark.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  position: absolute;
+  right: 103%;
+  top: 0;
+}
+
+.airbnb .testimony-details::before {
+  right: 105%;
+}

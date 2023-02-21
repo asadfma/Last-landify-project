@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  color: #18191f;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #18191f;
+  text-decoration: none;
+}
+
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.app::before {
+  content: "";
+  background-image: url("/images/hero/hero-backround.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 98vw;
+  height: 100vh;
+  height: 100dvh;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+}

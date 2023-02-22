@@ -1,9 +1,9 @@
 @import "./styles/reset.css";
 @import "./styles/navbar.css";
 @import "./styles/hero.css";
-@import url(./styles/partners.css);
-@import url(./styles/features.css);
-@import url(./styles/Testimonials.css);
-@import url(./styles/Feature-5.css);
-@import url(./styles/stats.css);
-@import url(./styles/Feature-6.css);
+@import "./styles/partners.css";
+@import "./styles/features.css";
+@import "./styles/Testimonials.css";
+@import "./styles/achievements.css";
+@import "./styles/stats.css";
+@import "./styles/Feature-6.css";

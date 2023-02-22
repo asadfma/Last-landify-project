@@ -1,3 +1,11 @@
+@import "./styles/reset.css";
+@import "./styles/navbar.css";
+@import "./styles/hero.css";
+@import "./styles/partners.css";
+@import "./styles/features.css";
+@import "./styles/Testimonials.css";
+@import "./styles/achievements.css";
+@import "./styles/stats.css";
+@import "./styles/Feature-6.css";
 @import url(./styles/cta.css);
 @import url(./styles/footer.css);
-@import url(./styles/reset.css);

@@ -1,4 +1,3 @@
-/*  there is a same problem just like the in the main section */
 .footer {
   position: absolute;
   background-color: #18191f;
@@ -6,22 +5,16 @@
   width: 100%;
   top: 491px;
 }
-.footer span {
+
+.right-side-badges {
   position: absolute;
   width: 160px;
   height: 140px;
-  left: 1115px;
-  top: 56px;
-  padding: 50px;
+  left: 1100px;
+  top: 90px;
 }
-.footer div {
-  position: absolute;
-  width: 489px;
-  height: 168px;
-  left: 75px;
-  top: 56px;
-}
-.footer span p {
+
+.badges-paragraph {
   width: 160px;
   height: 28px;
   font-size: 18px;
@@ -29,12 +22,27 @@
   color: #d9dbe1;
   margin-bottom: 12px;
 }
-.footer div img {
+
+.app-store-badge {
+  margin-bottom: 10px;
+}
+
+.left-side-links {
+  position: absolute;
+  width: 600px;
+  height: 180px;
+  left: 75px;
+  top: 56px;
+  margin-left: 90px;
+}
+
+.footer-logo {
   width: 32px;
   height: 32px;
   margin-bottom: 20px;
 }
-.up {
+
+.list-above {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,22 +51,32 @@
   width: 199px;
   height: 26px;
 }
-.down {
+
+.list-down {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 44px;
-  width: 550px;
+  gap: 30px;
+  width: 560px;
   height: 26px;
-  margin: 5px 0 30px;
+  margin: 15px 0 30px;
 }
-.footer li {
+
+.footer-list {
   list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
-.footer h5 {
+
+.left-side-paragraph {
   color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
+
 .footer a {
   color: white;
   text-decoration: none;

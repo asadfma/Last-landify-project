@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 10px;
+  position: relative;
+}
+
+.right-side-badges,
+.left-side-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-badges {
+  gap: 16px;
+}
+
+.left-side-links {
+  gap: 24px;
+}
+
+.badges-paragraph {
+  color: #d9dbe1;
+  font-size: 18px;
+}
+
+.footer-logo {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.list-above,
+.list-down {
+  display: flex;
+  gap: 24px;
+}
+
+.left-side-paragraph,
+.footer-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-link .download {
+  font-size: 16px;
+  color: white;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  background: #18191f;
+  width: 99vw;
+  height: 100%;
+  z-index: -1;
+}

@@ -1,82 +1,60 @@
 .footer {
-  position: absolute;
-  background-color: #18191f;
-  height: 300px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 10px;
+  position: relative;
+}
+
+.right-side-badges,
+.left-side-links {
+  display: flex;
+  flex-direction: column;
 }
 
 .right-side-badges {
-  position: absolute;
-  width: 160px;
-  height: 140px;
-  left: 1130px;
-  top: 90px;
-}
-
-.badges-paragraph {
-  width: 160px;
-  height: 28px;
-  font-size: 18px;
-  line-height: 28px;
-  color: #d9dbe1;
-  margin-bottom: 12px;
-}
-
-.app-store-badge {
-  margin-bottom: 10px;
+  gap: 16px;
 }
 
 .left-side-links {
-  position: absolute;
-  width: 600px;
-  height: 180px;
-  left: 75px;
-  top: 56px;
-  margin-left: 90px;
+  gap: 24px;
+}
+
+.badges-paragraph {
+  color: #d9dbe1;
+  font-size: 18px;
 }
 
 .footer-logo {
   width: 32px;
   height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.list-above {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 199px;
-  height: 26px;
-}
-
+.list-above,
 .list-down {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 30px;
-  width: 560px;
-  height: 26px;
-  margin: 15px 0 30px;
+  gap: 24px;
 }
 
-.footer-list {
-  list-style: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.left-side-paragraph {
+.left-side-paragraph,
+.footer-link {
   color: white;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
-.footer a {
+.footer-link .download {
+  font-size: 16px;
   color: white;
-  text-decoration: none;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  background: #18191f;
+  width: 99vw;
+  height: 100%;
+  z-index: -1;
 }
